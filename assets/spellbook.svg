@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" shape-rendering="crispEdges" font-family="'Courier New', ui-monospace, monospace">
+  <defs>
+    <linearGradient id="spellSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a6e"/>
+      <stop offset="100%" stop-color="#020218"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="620" fill="url(#spellSky)"/>
+
+  <!-- Outer double border -->
+  <rect x="12" y="12" width="976" height="596" fill="#000033" stroke="#ffffff" stroke-width="4"/>
+  <rect x="24" y="24" width="952" height="572" fill="none" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="40" width="920" height="48" fill="#000055" stroke="#ffd93d" stroke-width="2"/>
+  <g fill="#ffd93d">
+    <rect x="216" y="62" width="4" height="4"/><rect x="212" y="66" width="12" height="4"/><rect x="216" y="70" width="4" height="4"/>
+    <rect x="780" y="62" width="4" height="4"/><rect x="776" y="66" width="12" height="4"/><rect x="780" y="70" width="4" height="4"/>
+  </g>
+  <text x="500" y="72" fill="#ffd93d" font-size="22" font-weight="bold" text-anchor="middle" letter-spacing="4">SPELLBOOK  ·  THE  HERO'S  GRIMOIRE</text>
+
+  <!-- =============== TOP-LEFT: PYRO / FORGING =============== -->
+  <g transform="translate(40, 110)">
+    <rect width="450" height="230" fill="#000055" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- School header -->
+    <rect x="10" y="10" width="430" height="36" fill="#5c1a1a" stroke="#ff7043" stroke-width="2"/>
+    <!-- Pixel flame icon -->
+    <g transform="translate(20, 18)" fill="#ff7043">
+      <rect x="8" y="0" width="4" height="4"/>
+      <rect x="4" y="4" width="12" height="4"/>
+      <rect x="0" y="8" width="20" height="4"/>
+      <rect x="2" y="12" width="16" height="4"/>
+      <rect x="6" y="16" width="2" height="4"/><rect x="12" y="16" width="2" height="4"/>
+    </g>
+    <g transform="translate(24, 22)" fill="#ffd93d">
+      <rect x="4" y="0" width="4" height="4"/>
+      <rect x="2" y="4" width="8" height="4"/>
+      <rect x="4" y="8" width="4" height="4"/>
+    </g>
+    <text x="60" y="34" fill="#ffd93d" font-size="16" font-weight="bold" letter-spacing="2">PYRO  -  THE  FORGING  SCHOOL</text>
+
+    <!-- Column headers -->
+    <g fill="#a8d8ff" font-size="11" font-weight="bold">
+      <text x="24" y="66">MP</text>
+      <text x="60" y="66">SPELL</text>
+      <text x="200" y="66">EFFECT</text>
+    </g>
+    <line x1="20" y1="72" x2="440" y2="72" stroke="#4a4a7a" stroke-width="1"/>
+
+    <!-- Spell rows -->
+    <g font-size="13" font-weight="bold">
+      <text x="24" y="94" fill="#ffd93d">8</text>
+      <text x="60" y="94" fill="#ffffff">NEXIMA</text>
+      <text x="200" y="94" fill="#c8c8ff">Summon a Next.js keep</text>
+
+      <text x="24" y="118" fill="#ffd93d">6</text>
+      <text x="60" y="118" fill="#ffffff">REACTA</text>
+      <text x="200" y="118" fill="#c8c8ff">Mold UI from crystal</text>
+
+      <text x="24" y="142" fill="#ffd93d">4</text>
+      <text x="60" y="142" fill="#ffffff">TYPESCRIBA</text>
+      <text x="200" y="142" fill="#c8c8ff">Bind typed contracts</text>
+
+      <text x="24" y="166" fill="#ffd93d">3</text>
+      <text x="60" y="166" fill="#ffffff">TAILWINDA</text>
+      <text x="200" y="166" fill="#c8c8ff">Paint with utility runes</text>
+
+      <text x="24" y="190" fill="#ffd93d">7</text>
+      <text x="60" y="190" fill="#ffffff">FASTAPIRA</text>
+      <text x="200" y="190" fill="#c8c8ff">Conjure Python routes</text>
+
+      <text x="24" y="214" fill="#ffd93d">5</text>
+      <text x="60" y="214" fill="#ffffff">STRIPIMA</text>
+      <text x="200" y="214" fill="#c8c8ff">Prompts into revenue</text>
+    </g>
+  </g>
+
+  <!-- =============== TOP-RIGHT: CRYO / EDGE =============== -->
+  <g transform="translate(510, 110)">
+    <rect width="450" height="230" fill="#000055" stroke="#ffffff" stroke-width="2"/>
+
+    <rect x="10" y="10" width="430" height="36" fill="#0d3a5c" stroke="#4dabf7" stroke-width="2"/>
+    <!-- Pixel snowflake icon -->
+    <g transform="translate(20, 18)" fill="#a8d8ff">
+      <rect x="8" y="0" width="4" height="20"/>
+      <rect x="0" y="8" width="20" height="4"/>
+      <rect x="2" y="2" width="4" height="4"/>
+      <rect x="14" y="2" width="4" height="4"/>
+      <rect x="2" y="14" width="4" height="4"/>
+      <rect x="14" y="14" width="4" height="4"/>
+    </g>
+    <text x="60" y="34" fill="#a8d8ff" font-size="16" font-weight="bold" letter-spacing="2">CRYO  -  THE  EDGE  SCHOOL</text>
+
+    <g fill="#a8d8ff" font-size="11" font-weight="bold">
+      <text x="24" y="66">MP</text>
+      <text x="60" y="66">SPELL</text>
+      <text x="210" y="66">EFFECT</text>
+    </g>
+    <line x1="20" y1="72" x2="440" y2="72" stroke="#4a4a7a" stroke-width="1"/>
+
+    <g font-size="13" font-weight="bold">
+      <text x="24" y="94" fill="#ffd93d">7</text>
+      <text x="60" y="94" fill="#ffffff">CLOUDWALL</text>
+      <text x="210" y="94" fill="#c8c8ff">Raise a Workers ward</text>
+
+      <text x="24" y="118" fill="#ffd93d">5</text>
+      <text x="60" y="118" fill="#ffffff">D1-ORACLE</text>
+      <text x="210" y="118" fill="#c8c8ff">Open a SQL gate</text>
+
+      <text x="24" y="142" fill="#ffd93d">4</text>
+      <text x="60" y="142" fill="#ffffff">KV-CACHE</text>
+      <text x="210" y="142" fill="#c8c8ff">Freeze state in KV</text>
+
+      <text x="24" y="166" fill="#ffd93d">4</text>
+      <text x="60" y="166" fill="#ffffff">R2-HOARD</text>
+      <text x="210" y="166" fill="#c8c8ff">Stow relics in R2</text>
+
+      <text x="24" y="190" fill="#ffd93d">2</text>
+      <text x="60" y="190" fill="#ffffff">TURNSTILA</text>
+      <text x="210" y="190" fill="#c8c8ff">Ward off bot hordes</text>
+
+      <text x="24" y="214" fill="#ffd93d">3</text>
+      <text x="60" y="214" fill="#ffffff">CLERKIMA</text>
+      <text x="210" y="214" fill="#c8c8ff">Bind SSO identity</text>
+    </g>
+  </g>
+
+  <!-- =============== BOTTOM-LEFT: HEAL / LLM =============== -->
+  <g transform="translate(40, 360)">
+    <rect width="450" height="230" fill="#000055" stroke="#ffffff" stroke-width="2"/>
+
+    <rect x="10" y="10" width="430" height="36" fill="#1a5c30" stroke="#4ade80" stroke-width="2"/>
+    <!-- Pixel cross/potion icon -->
+    <g transform="translate(20, 18)" fill="#4ade80">
+      <rect x="8" y="0" width="4" height="20"/>
+      <rect x="0" y="8" width="20" height="4"/>
+    </g>
+    <g transform="translate(20, 18)" fill="#a8ffc8">
+      <rect x="8" y="4" width="4" height="4"/>
+      <rect x="4" y="8" width="4" height="4"/>
+    </g>
+    <text x="60" y="34" fill="#4ade80" font-size="16" font-weight="bold" letter-spacing="2">HEAL  -  THE  LLM  SCHOOL</text>
+
+    <g fill="#a8d8ff" font-size="11" font-weight="bold">
+      <text x="24" y="66">MP</text>
+      <text x="60" y="66">SPELL</text>
+      <text x="210" y="66">EFFECT</text>
+    </g>
+    <line x1="20" y1="72" x2="440" y2="72" stroke="#4a4a7a" stroke-width="1"/>
+
+    <g font-size="13" font-weight="bold">
+      <text x="24" y="94" fill="#ffd93d">6</text>
+      <text x="60" y="94" fill="#ffffff">RAGULA</text>
+      <text x="210" y="94" fill="#c8c8ff">Retrieve lost lore</text>
+
+      <text x="24" y="118" fill="#ffd93d">5</text>
+      <text x="60" y="118" fill="#ffffff">NL2SQL</text>
+      <text x="210" y="118" fill="#c8c8ff">Speech to query-rune</text>
+
+      <text x="24" y="142" fill="#ffd93d">5</text>
+      <text x="60" y="142" fill="#ffffff">PROMPTIRA</text>
+      <text x="210" y="142" fill="#c8c8ff">CoT / Self-reflect</text>
+
+      <text x="24" y="166" fill="#ffd93d">8</text>
+      <text x="60" y="166" fill="#ffffff">LORALITE</text>
+      <text x="210" y="166" fill="#c8c8ff">Fine-tune LoRA/DoRA</text>
+
+      <text x="24" y="190" fill="#ffd93d">7</text>
+      <text x="60" y="190" fill="#ffffff">DPO-ALIGN</text>
+      <text x="210" y="190" fill="#c8c8ff">Align via SFT / DPO</text>
+
+      <text x="24" y="214" fill="#ffd93d">6</text>
+      <text x="60" y="214" fill="#ffffff">VLLM-HASTE</text>
+      <text x="210" y="214" fill="#c8c8ff">Haste LLM inference</text>
+    </g>
+  </g>
+
+  <!-- =============== BOTTOM-RIGHT: SUMMON / AGENT =============== -->
+  <g transform="translate(510, 360)">
+    <rect width="450" height="230" fill="#000055" stroke="#ffffff" stroke-width="2"/>
+
+    <rect x="10" y="10" width="430" height="36" fill="#4a1c5c" stroke="#c084fc" stroke-width="2"/>
+    <!-- Pixel pentagram/star icon -->
+    <g transform="translate(22, 20)" fill="#c084fc">
+      <rect x="6" y="0" width="4" height="4"/>
+      <rect x="0" y="6" width="16" height="4"/>
+      <rect x="2" y="10" width="12" height="4"/>
+      <rect x="4" y="14" width="2" height="4"/>
+      <rect x="10" y="14" width="2" height="4"/>
+    </g>
+    <text x="60" y="34" fill="#c084fc" font-size="16" font-weight="bold" letter-spacing="2">SUMMON  -  THE  AGENT  SCHOOL</text>
+
+    <g fill="#a8d8ff" font-size="11" font-weight="bold">
+      <text x="24" y="66">MP</text>
+      <text x="60" y="66">SPELL</text>
+      <text x="210" y="66">EFFECT</text>
+    </g>
+    <line x1="20" y1="72" x2="440" y2="72" stroke="#4a4a7a" stroke-width="1"/>
+
+    <g font-size="13" font-weight="bold">
+      <text x="24" y="94" fill="#ffd93d">9</text>
+      <text x="60" y="94" fill="#ffffff">METAGPT</text>
+      <text x="210" y="94" fill="#c8c8ff">Summon agent swarm</text>
+
+      <text x="24" y="118" fill="#ffd93d">8</text>
+      <text x="60" y="118" fill="#ffffff">ADKALL</text>
+      <text x="210" y="118" fill="#c8c8ff">Invoke ADK lattice</text>
+
+      <text x="24" y="142" fill="#ffd93d">7</text>
+      <text x="60" y="142" fill="#ffffff">CLAUDIMA</text>
+      <text x="210" y="142" fill="#c8c8ff">Consult Claude Code</text>
+
+      <text x="24" y="166" fill="#ffd93d">6</text>
+      <text x="60" y="166" fill="#ffffff">CURSORA</text>
+      <text x="210" y="166" fill="#c8c8ff">Channel Cursor 5x</text>
+
+      <text x="24" y="190" fill="#ffd93d">4</text>
+      <text x="60" y="190" fill="#ffffff">MCP-BIND</text>
+      <text x="210" y="190" fill="#c8c8ff">Link tools via MCP</text>
+
+      <text x="24" y="214" fill="#ffd93d">5</text>
+      <text x="60" y="214" fill="#ffffff">SKILLIRA</text>
+      <text x="210" y="214" fill="#c8c8ff">Teach via SKILL scroll</text>
+    </g>
+  </g>
+</svg>
